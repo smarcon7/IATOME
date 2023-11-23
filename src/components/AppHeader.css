@@ -1,0 +1,13 @@
+.headerOne {
+  background-color: #45335b;
+}
+
+.header {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+.header .navbar-toggler-icon {
+  color: white; /* Change the color to white or any other color you prefer */
+}

@@ -1,0 +1,24 @@
+.custom-navbar {
+  background-color: white;
+}
+.custom-button {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+@media (max-width: 768px) {
+  .custom-navbar {
+    font-size: small;
+    margin-right: 100px;
+  }
+  .brand {
+    font-size: small;
+  }
+}
+@media (max-width: 425px) {
+  .custom-navbar {
+    font-size: xx-small;
+    margin-right: 200px;
+  }
+  .brand {
+    font-size: xx-small;
+  }
+}

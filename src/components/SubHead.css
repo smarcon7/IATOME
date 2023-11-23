@@ -1,0 +1,167 @@
+.sub-head {
+  /* background-position: 50% 50%;
+  background-size: cover; */
+  /* height: 250px;
+  width: 1366px;
+  margin-bottom: 100px;
+  flex-shrink: 0; */
+  height: 250px;
+  position: relative;
+  width: 1366px;
+  margin-bottom: 100px;
+  margin-top: 0px;
+  border: 1px solid grey;
+}
+.sub-head .simage {
+  background-size: cover;
+  height: 250px;
+  width: 1366px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.sub-head .overlap {
+  background-color: #ffffff80;
+  height: 250px;
+  position: relative;
+}
+
+.sub-head .group {
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+.sub-head .simage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    143,
+    143,
+    143,
+    0.5
+  ); /* Adjust the opacity (0.5 in this example) */
+  z-index: 1; /* Ensure the overlay is above the image */
+}
+
+.sub-head .overlap-group {
+  height: 250px;
+  position: relative;
+}
+
+.sub-head .frame {
+  height: 250px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.sub-head .ellipse {
+  background-color: var(--accent);
+  border-radius: 128px;
+  height: 256px;
+  left: 1238px;
+  opacity: 0.5;
+  position: absolute;
+  top: 122px;
+  width: 256px;
+}
+
+.sub-head .div {
+  background-color: var(--secondary);
+  border-radius: 119.5px;
+  height: 239px;
+  left: -119px;
+  opacity: 0.3;
+  position: absolute;
+  top: -119px;
+  width: 239px;
+}
+
+.sub-head .group-2 {
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 242px;
+  width: 1366px;
+}
+
+.sub-head .rectangle {
+  background-color: var(--primary);
+  height: 8px;
+  left: 306px;
+  position: absolute;
+  top: 0;
+  width: 837px;
+}
+
+.sub-head .rectangle-2 {
+  background-color: var(--secondary);
+  height: 8px;
+  left: 1143px;
+  position: absolute;
+  top: 0;
+  width: 223px;
+}
+
+.sub-head .rectangle-3 {
+  background-color: var(--accent);
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 306px;
+}
+
+.sub-head .overlap-wrapper {
+  height: 72px;
+  left: 187px;
+  position: absolute;
+  top: 76px;
+  width: 201px;
+}
+
+.sub-head .overlap-2 {
+  height: 72px;
+  position: relative;
+  width: 197px;
+}
+
+.sub-head .text-wrapper {
+  color: #45335b;
+  font-weight: 700;
+  left: 0;
+  /* Display 1 */
+  font-family: Yeseva One;
+  font-size: 44px;
+  font-style: normal;
+  line-height: normal;
+  position: absolute;
+  top: 21px;
+  white-space: nowrap;
+  text-align: justify;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.sub-head .text-wrapper-2 {
+  color: #45335b;
+  left: 0;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 100px;
+  padding-top: 50px;
+  line-height: 140%; /* 25.2px */
+}

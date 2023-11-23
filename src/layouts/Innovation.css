@@ -1,0 +1,97 @@
+.box {
+  height: 285px;
+  position: relative;
+  width: 984px;
+}
+
+.box .group {
+  height: 285px;
+  left: 0;
+  /* position: fixed; */
+  top: 0;
+  width: 986px;
+}
+
+.box .div {
+  height: 66px;
+  left: 184px;
+  position: absolute;
+  top: 0;
+  width: 580px;
+}
+
+.box .text-wrapper-2 {
+  color: var(--primary);
+  font-family: var(--display-2-font-family);
+  font-size: var(--display-2-font-size);
+  font-style: var(--display-2-font-style);
+  font-weight: var(--display-2-font-weight);
+  left: 0;
+  letter-spacing: var(--display-2-letter-spacing);
+  line-height: var(--display-2-line-height);
+  position: absolute;
+  text-align: center;
+  top: 29px;
+  width: 576px;
+}
+
+.box .second-heading {
+  color: purple;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100;
+  font-style: bold;
+  font-weight: 100;
+  left: 0;
+  letter-spacing: var(--caption-letter-spacing);
+  line-height: var(--caption-line-height);
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  width: 576px;
+}
+
+.box .overlap-group {
+  height: 204px;
+  left: 0;
+  position: absolute;
+  top: 81px;
+  width: 984px;
+}
+
+.box .our-form-factor {
+  color: var(--black);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  left: 0;
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 984px;
+}
+
+.box .link-button-instance {
+  display: flex !important;
+  left: 388px !important;
+  position: absolute !important;
+  top: 166px !important;
+  width: 131px !important;
+}
+
+/* .box .design-component-instance-node {
+  margin-right: unset !important;
+} */
+
+.image-display {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* Optional: You can specify a maximum width and height for the container */
+  height: auto;
+  width: 400px;
+  padding-left: 400px;
+  padding-bottom: 100px;
+}

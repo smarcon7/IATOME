@@ -1,0 +1,79 @@
+.group {
+  height: 522px;
+  position: relative;
+  width: 1112px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+}
+
+.group .humanbody {
+  height: 400px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 400px;
+}
+
+.label {
+  display: flex;
+  flex-flow: column wrap;
+  /* height: 183px;*/
+  flex-direction: column-reverse;
+  left: 428px;
+  position: absolute;
+  top: 0;
+  width: 631px;
+  color: var(--Primary, #45335b);
+  /* Display 1 */
+  font-family: Yeseva One;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 80px 100px 100px 44px;
+}
+.items .group .medical-grade-ecgs {
+  color: var(--primary);
+  font-family: var(--display-1-font-family);
+  font-size: var(--display-1-font-size);
+  font-style: var(--display-1-font-style);
+  font-weight: var(--display-1-font-weight);
+  left: 0;
+  letter-spacing: var(--display-1-letter-spacing);
+  line-height: var(--display-1-line-height);
+  position: absolute;
+  top: 29px;
+}
+
+.group .welcome-to-carditek {
+  color: #acb452;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+  padding: 80px 100px 100px 44px;
+
+  position: absolute;
+  left: 428px;
+}
+
+.group .our-company {
+  color: #000000;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  left: 428px;
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  position: absolute;
+  text-align: justify;
+  top: 301px;
+  width: 564px;
+  padding-top: 0px;
+  padding-left: 44px;
+}

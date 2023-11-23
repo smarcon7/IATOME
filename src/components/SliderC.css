@@ -1,0 +1,44 @@
+/* SliderC.css */
+/* index.css */
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+.slider-container {
+  display: flex;
+
+  position: relative;
+  height: 990px;
+  width: 1000%;
+  /* Ensure the slider covers the full viewport height */
+  border: 2px solid red;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.slider-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: auto;
+  object-fit: cover;
+
+  /* Ensure the image covers the container */
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* right: 0; */
+
+  color: #45335b;
+  /* padding: 10px;
+  padding-left: 200px;
+  padding-right: 400px; */
+  text-align: left;
+  font-family: Yeseva One;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}

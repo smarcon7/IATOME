@@ -1,0 +1,494 @@
+/* Button */
+.button {
+  align-items: flex-start;
+  background-color: var(--accent);
+  border-radius: 50px;
+  display: inline-flex;
+  gap: 10px;
+  padding: 13px 35px;
+  position: relative;
+}
+
+.button .text-wrapper {
+  color: var(--primary);
+  font-family: "Work Sans-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+/* Navbar */
+.navbar {
+  background: var(--primary, #45335b);
+
+  display: flex;
+  width: 1366px;
+  padding: 17px 187px 18px 187px;
+  justify-content: center;
+  align-items: center;
+  gap: 280px;
+}
+
+.navbar .frame {
+  align-items: flex-start;
+  display: flex;
+  gap: 20px;
+  margin-left: -73px;
+  position: relative;
+  width: 636px;
+}
+
+.navbar .div {
+  color: var(--accent);
+  font-family: "Work Sans-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.navbar .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.navbar .p {
+  color: var(--white);
+  font-family: "Work Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.navbar .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: -34px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.navbar .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: -166px;
+  margin-top: -1px;
+  position: relative;
+  width: 112px;
+}
+
+.navbar .button-instance {
+  flex: 0 0 auto !important;
+  margin-right: -73px !important;
+}
+/* end of Navbar */
+
+.components {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.components .div-2 {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 7364px;
+  position: relative;
+  width: 2538px;
+}
+
+.components .button-2 {
+  left: 60px !important;
+  position: absolute !important;
+  top: 60px !important;
+}
+
+.components .goals-instance {
+  left: 419px !important;
+  position: absolute !important;
+  top: 832px !important;
+}
+
+.components .link-button-instance {
+  left: 60px !important;
+  position: absolute !important;
+  top: 119px !important;
+}
+
+.components .doctors-card {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 60px;
+  position: absolute;
+  top: 246px;
+}
+
+.components .rectangle-15 {
+  height: 555px;
+  position: relative;
+  width: 317px;
+}
+
+.components .group-51 {
+  height: 142px;
+  margin-right: -4px;
+  position: relative;
+  width: 321px;
+}
+
+.components .overlap-group-4 {
+  background-color: #c3b9c2;
+  height: 142px;
+  position: relative;
+  width: 317px;
+}
+
+.components .text-wrapper-14 {
+  color: var(--primary);
+  font-family: var(--body-2-font-family);
+  font-size: var(--body-2-font-size);
+  font-style: var(--body-2-font-style);
+  font-weight: var(--body-2-font-weight);
+  left: 93px;
+  letter-spacing: var(--body-2-letter-spacing);
+  line-height: var(--body-2-line-height);
+  position: absolute;
+  top: 24px;
+  white-space: nowrap;
+}
+
+.components .cardiologist {
+  color: var(--primary);
+  font-family: var(--caption-font-family);
+  font-size: var(--caption-font-size);
+  font-style: var(--caption-font-style);
+  font-weight: var(--caption-font-weight);
+  left: 91px;
+  letter-spacing: var(--caption-letter-spacing);
+  line-height: var(--caption-line-height);
+  position: absolute;
+  top: 57px;
+  white-space: nowrap;
+}
+
+.components .vector-14 {
+  height: 24px;
+  left: 102px;
+  position: absolute;
+  top: 94px;
+  width: 24px;
+}
+
+.components .vector-15 {
+  height: 24px;
+  left: 146px;
+  position: absolute;
+  top: 94px;
+  width: 24px;
+}
+
+.components .vector-16 {
+  height: 24px;
+  left: 190px;
+  position: absolute;
+  top: 94px;
+  width: 24px;
+}
+
+.components .group-52 {
+  height: 46px;
+  margin-right: -2px;
+  position: relative;
+  width: 319px;
+}
+
+.components .overlap-3 {
+  background-color: #45335b;
+  border-radius: 0px 0px 5px 5px;
+  height: 46px;
+  position: relative;
+  width: 317px;
+}
+
+.components .text-wrapper-15 {
+  color: var(--accent);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  left: 112px;
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+}
+
+.components .small-news-4 {
+  border: 1px dashed;
+  border-color: #7b61ff;
+  border-radius: 5px;
+  height: 368px;
+  left: 823px;
+  overflow: hidden;
+  position: absolute;
+  top: 390px;
+  width: 526px;
+}
+
+.components .property-default {
+  left: 20px !important;
+  position: absolute !important;
+  top: 20px !important;
+}
+
+.components .property-hovered {
+  left: 20px !important;
+  position: absolute !important;
+  top: 194px !important;
+}
+
+.components .footer-instance {
+  left: 60px !important;
+  position: absolute !important;
+  top: 2175px !important;
+}
+
+.components .contacts-section-instance {
+  left: 60px !important;
+  position: absolute !important;
+  top: 1726px !important;
+}
+
+.components .navbar-instance {
+  left: 60px !important;
+  position: absolute !important;
+  top: 1213px !important;
+}
+
+.components .topmost-instance {
+  left: 60px !important;
+  position: absolute !important;
+  top: 1113px !important;
+}
+
+.components .our-doctors-section {
+  height: 718px;
+  left: 247px;
+  position: absolute;
+  top: 2688px;
+  width: 992px;
+}
+
+.components .overlap-4 {
+  height: 772px;
+  left: 9px;
+  position: relative;
+}
+
+.components .group-53 {
+  height: 66px;
+  left: 388px;
+  position: absolute;
+  top: 0;
+  width: 201px;
+}
+
+.components .text-wrapper-16 {
+  color: var(--primary);
+  font-family: var(--display-2-font-family);
+  font-size: var(--display-2-font-size);
+  font-style: var(--display-2-font-style);
+  font-weight: var(--display-2-font-weight);
+  left: 0;
+  letter-spacing: var(--display-2-letter-spacing);
+  line-height: var(--display-2-line-height);
+  position: absolute;
+  text-align: center;
+  top: 29px;
+  white-space: nowrap;
+}
+
+.components .trusted-care {
+  color: var(--secondary);
+  font-family: var(--caption-font-family);
+  font-size: var(--caption-font-size);
+  font-style: var(--caption-font-style);
+  font-weight: var(--caption-font-weight);
+  left: 13px;
+  letter-spacing: var(--caption-letter-spacing);
+  line-height: var(--caption-line-height);
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.components .group-54 {
+  height: 18px;
+  left: 450px;
+  position: absolute;
+  top: 700px;
+  width: 74px;
+}
+
+.components .rectangle-16 {
+  background-color: var(--accent);
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.components .rectangle-17 {
+  background-color: var(--primary);
+  border-radius: 50px;
+  height: 18px;
+  left: 28px;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.components .rectangle-18 {
+  background-color: var(--accent);
+  border-radius: 50px;
+  height: 18px;
+  left: 56px;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.components .group-55 {
+  height: 743px;
+  left: 0;
+  position: absolute;
+  top: 29px;
+  width: 992px;
+}
+
+.components .doctors-card-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.components .doctors-card-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 337px;
+  position: absolute;
+  top: 0;
+}
+
+.components .doctors-card-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 675px;
+  position: absolute;
+  top: 0;
+}
+
+.components .news-section-instance {
+  left: 827px !important;
+  position: absolute !important;
+  top: 5457px !important;
+}
+
+.components .sub-head-instance {
+  left: 121px !important;
+  position: absolute !important;
+  top: 3898px !important;
+}
+
+.components .testimonials-instance {
+  left: 121px !important;
+  position: absolute !important;
+  top: 4333px !important;
+}
+
+.components .mapview-instance {
+  left: 121px !important;
+  position: absolute !important;
+  top: 4921px !important;
+}
+
+.components .button-with-icon-2 {
+  left: 194px !important;
+  position: absolute !important;
+  top: 59px !important;
+}
+
+.components .article-instance {
+  left: 95px !important;
+  position: absolute !important;
+  top: 5457px !important;
+}
+
+.components .mini-news-7 {
+  left: 1894px !important;
+  position: absolute !important;
+  top: 962px !important;
+}
+
+.components .news-search-input-instance {
+  left: 1894px !important;
+  position: absolute !important;
+  top: 371px !important;
+}
+
+.components .side-recent-ponts-instance {
+  left: 1894px !important;
+  position: absolute !important;
+  top: 441px !important;
+}
+
+.components .navbar-mobile-instance {
+  left: 60px !important;
+  position: absolute !important;
+  top: 1313px !important;
+}
